@@ -8046,9 +8046,11 @@ footer {
     flex-wrap: wrap; }
   .colum1 {
     max-width: 100%; }
-  .colum2,
+  .colum2 {
+    max-width: 100%; }
   .colum3 {
-    margin-top: 40px; } }
+    margin-top: 40px;
+    max-width: 100%; } }
 
 body {
   background-image: url(../picture/fondo2.jpg); }
