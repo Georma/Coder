@@ -1,0 +1,7 @@
+// Mapa personalizado de Bostrap
+$especial: (
+"especial":#4b2533
+);
+
+// Unir al Mapa
+$theme-colors: map-merge($theme-colors, $especial);

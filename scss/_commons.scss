@@ -1,0 +1,54 @@
+//variables de color
+$bg-marron: rgba(48, 0,0,1);
+$bg-blanco: white;
+
+//variables de tamaño
+$w-50:50%;
+$w-25:25%;
+$w100:100%;
+
+//variables de flex
+$d-flex:flex;
+$d-inline:inline;
+
+
+
+$image-fondo: url(../picture/fondo2.jpg);
+$image-404:url(../picture/homero.jpg);
+
+$width:100%;
+$height:600px;
+
+
+//Agregar bucle
+@for $i from 1 through 6{
+	 h#{$i}{
+		font-size: 1em;
+	}
+}
+
+//Agregar each
+@each $icono in whatsapp, facebook, instagram{
+	.#{$icono}-icon{
+		background-image:url(../picture/#{$icono}.svg);
+		width: 36px;
+	 	height: 36px;
+	 	background-size:100%;
+	 	list-style: none;
+	 }
+}
+
+//Agregar un mapa
+$colorTargetaHistoria:(/*Declaramos nuestro mapa*/
+fondo1: #790909,
+fondo2:#4d0f0f,
+fondo3:#342a2a,
+);
+
+/*Creamos el bucle para usar los valores del mapa*/
+@each $fondo, $color in $colorTargetaHistoria {
+   .targeta--#{$fondo} {
+       background-color: $color;
+   }
+}
+

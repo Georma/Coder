@@ -1,0 +1,53 @@
+nav{
+	div{
+		a{
+			p{
+				font-family:'Freestyle Script';
+				font-size: 250%;
+				margin: -4px;
+			}
+		}
+	}
+}
+nav{
+	div{
+		list-style: none;
+		background:$bg-marron;
+	}
+}
+
+
+li a {
+	font-weight: bold;
+
+}
+
+nav div li  ul li a:hover{
+	text-decoration: underline;
+	color:black;
+	background: darkred;
+	
+}
+
+
+li a:hover{
+	text-decoration: underline;
+}
+
+
+div ul li a {
+	margin: 14px;
+}
+
+
+.text3{
+	background:$bg-marron;
+	padding-right:24px;
+	font-weight:bold;
+	color:black;
+
+}
+
+.dropdown-item:hover{
+ background: #7a5658;
+}

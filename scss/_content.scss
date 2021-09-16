@@ -1,0 +1,282 @@
+body{
+	background-image: $image-fondo;
+}
+
+footer{
+  grid-area: footer;
+  bottom:0px;
+  position: relative;
+  background-image: gray;
+}
+
+/*USANDO FLEX*/
+footer section div{
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+//bloque de bem
+.container{
+	width: 100%;
+	height: 430px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+
+//bloque de bem
+.promo{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  color:white;
+}
+
+//bloque+elemento+modificador
+.promo__titulo--white{
+	font-size: 3em;
+	text-align: center;
+	color: $bg-blanco;
+	margin: 12px;
+}
+
+
+.promo__titulo--white2{
+  font-size: 2em;
+  text-align: center;
+  color: orange;
+  background-color: black;
+  font-weight: bold;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.margeTop{
+  margin-top: 20px;
+}
+
+
+//bloque de bem
+.tarjeta {
+  width: 330px;
+  height: 500px;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  overflow: hidden;
+  background: #fff;
+  margin: 25px;
+  text-align: center;
+  font-size: 14px;
+  max-width: auto;
+}
+
+.tarjetaHomero {
+  width: auto;
+  height: auto;
+  margin: 25px;
+  text-align: center;
+  font-size: 14px;
+  max-width: auto;
+}
+
+
+.tarjeta:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+
+}
+
+//bloque+elemento+modificador
+.tarjeta__image {
+  width: 100%;
+}
+
+.tarjeta__content {
+  padding: 14px;
+}
+
+.tarjeta__marca {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 1px;
+  text-align: center;
+}
+
+.tarjeta__nombre {
+  color: rgba(0,0,0,.4);
+}
+
+.tarjeta__description {
+  margin-top: 7px;
+}
+
+.tarjeta__marcax{
+  font-weight: 600;
+  font-size: 25px;
+  color:$bg-blanco;
+
+}
+
+.text{
+  color:$bg-blanco;
+}
+
+.margeLeft{
+  margin-left: 5px;
+}
+
+.card-precio{
+ font-size: 18px;
+ color:red;
+ font-weight: bold;
+ margin: 0px;
+}
+
+.card-text{
+  margin: 0;
+
+}
+
+
+.numerox{
+ width: 20px;
+ margin:26px;
+}
+
+.margin-top{
+  margin-top: -25px;
+}
+
+.margin-right{
+  margin-right: 50px;
+  font-size: 16px;
+  border-radius: 16px;
+  text-align: center;
+
+}
+
+input:in-range {
+  border: 3px solid green;
+  text-align: center;
+  border-radius: 16px;
+  color:green;
+  font-weight: bold;
+}
+
+
+.homeropicture{
+  margin-left: 40px;
+  max-width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.homero1{
+  background-image: none;
+  background-color: $bg-blanco;
+}
+
+.homeroTitulo{
+  font-size: 6em;
+  text-align: center;
+  color: black;
+  margin: 12px;
+  font-weight: $fontBold;
+
+}
+
+
+.homeroops{
+  font-size: 2em;
+  text-align: center;
+  color: black;
+
+  
+}
+
+.homerosms{
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeroboton{
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+  justify-content:center;
+
+
+}
+
+.homeroboton:hover{
+  font-size: 2em;
+  width: 100%;
+
+}
+
+
+@keyframes animateDiv{
+  0%{width: 100px;}
+  15%{width: 105px;}
+  30%{width: 110px;}
+  45%{width: 115px;}
+  50%{width: 120px;}
+  60%{width: 115px;}
+  70%{width: 110px;}
+  80%{width: 105px;}
+  90%{width: 100px;}
+}
+
+.animate{
+  animation-name: animateDiv;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease;
+  animation-delay: 1s;
+  animation-duration: 5s;
+  transition: all 2s;
+}
+
+.borde{
+  box-shadow: $bg-blanco
+}
+
+.borde2{
+ border: $bg-blanco;
+}
+
+.font{
+  font-family: Merriweather;
+}
+
+.topHomero{
+  margin-top: -30px;
+}
+
+.topHomero2{
+  margin-top: -20px;
+}
+
+.btn-wsp{
+  position:fixed;
+  height: auto;
+  z-index: 9999;
+  height: auto;
+  right: 1px;
+}
+
+
+

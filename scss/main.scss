@@ -1,0 +1,20 @@
+//importar variables de bstrap
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+// SCSS de Bostrap para modificarlo
+@import "_estilobostrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// SCSS propios
+@import "_reset";
+@import "_commons";
+@import "_fonts";
+@import "_navbar";
+@import "_footer";
+@import "_content";
+
+
+
