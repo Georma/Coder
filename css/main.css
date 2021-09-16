@@ -7936,11 +7936,6 @@ h6, .h6 {
 .targeta--fondo3 {
   background-color: #342a2a; }
 
-nav div a p {
-  font-family: 'Freestyle Script';
-  font-size: 250%;
-  margin: -4px; }
-
 nav div {
   list-style: none;
   background: #300000; }
@@ -7967,6 +7962,11 @@ div ul li a {
 
 .dropdown-item:hover {
   background: #7a5658; }
+
+.fuenteTitulo {
+  font-family: 'Freestyle Script';
+  font-size: 250%;
+  margin: -4px; }
 
 footer {
   width: 100%;
