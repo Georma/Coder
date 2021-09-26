@@ -8054,7 +8054,8 @@ footer {
     max-width: 100%; } }
 
 body {
-  background-image: url(../picture/fondo2.jpg); }
+  background-image: url(../picture/fondo2.jpg);
+  overflow-x: hidden; }
 
 footer {
   grid-area: footer;

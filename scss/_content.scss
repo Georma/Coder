@@ -1,5 +1,9 @@
 body{
 	background-image: $image-fondo;
+
+//Quitar el scroll Horizontal 
+overflow-x:hidden
+
 }
 
 footer{
